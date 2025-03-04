@@ -1,4 +1,4 @@
-package com.villagehunar.seeker.impl.security;
+package com.villagehunar.seeker.security;
 
 
 import org.springframework.beans.factory.annotation.Value;
