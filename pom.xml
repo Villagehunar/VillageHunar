@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.villagehunar</groupId>
 	<artifactId>seeker</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>seeker</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -60,6 +60,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
+
+		<!-- https://mvnrepository.com/artifact/jakarta.persistence/jakarta.persistence-api -->
+		<dependency>
+			<groupId>jakarta.persistence</groupId>
+			<artifactId>jakarta.persistence-api</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+
 
 		<!-- JWT -->
 		<dependency>
